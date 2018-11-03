@@ -1,0 +1,19 @@
+{
+    "name": "myzero1/yii2-z1site",
+    "description": "Simple captcha for yii2.Just add the module in config file and use the widget.",
+    "type": "yii2-module",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Xuanwu Qin",
+            "email": "myzero1@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "myzero1\\z1site\\": "src/" }
+    }
+}
