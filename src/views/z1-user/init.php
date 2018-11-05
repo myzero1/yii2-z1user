@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 
 $formStr = sprintf('%s%s%s',
-    Html::beginForm(['user/init'], 'post'),
+    Html::beginForm(['z1-user/init'], 'post'),
     Html::submitButton(
         '点击本按钮进行初始化',
         ['class' => 'layui-btn layui-btn-normal']
